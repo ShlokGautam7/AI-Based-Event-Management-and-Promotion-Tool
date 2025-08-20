@@ -44,15 +44,15 @@ This project addresses the problem by not only storing and managing event detail
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage]((https://github.com/user-attachments/assets/56c93b8c-9c93-4d54-983f-1168c4418190))
 
 ### ➕ Creating an Event
-![Create Event](screenshots/create_event.png)
+![Create Event]((https://github.com/user-attachments/assets/36a65212-0755-41de-8491-3c6495ce72eb))
 
 ### 📄 Event Created
-![Event Detail](screenshots/event_detail.png)
+![Event Detail]((https://github.com/user-attachments/assets/eb3d3be3-7209-423d-8be8-ee373a8361a3))
 
 ### ✏️ Updation & Deletion
-![Update Delete](screenshots/update_delete.png)
+![Update Delete]([screenshots/update_delete.png](https://github.com/user-attachments/assets/1623fd2f-1824-43f2-9e84-302441cb51c5))
 
 ---
