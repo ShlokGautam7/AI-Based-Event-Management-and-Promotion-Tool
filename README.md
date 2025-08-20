@@ -43,20 +43,16 @@ This project addresses the problem by not only storing and managing event detail
 
 ## 📸 Screenshots
 
-### 🏠 Homepage – Event List
+### 🏠 Homepage
 ![Homepage](screenshots/homepage.png)
 
-### ➕ Create Event Page
+### ➕ Creating an Event
 ![Create Event](screenshots/create_event.png)
 
-### 📄 Event Detail with AI-Promo
+### 📄 Event Created
 ![Event Detail](screenshots/event_detail.png)
 
+### ✏️ Updation & Deletion
+![Update Delete](screenshots/update_delete.png)
+
 ---
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/your-username/event-manager-ai.git
-cd event-manager-ai
