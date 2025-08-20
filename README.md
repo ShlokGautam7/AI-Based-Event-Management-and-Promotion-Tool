@@ -1,35 +1,62 @@
 # 🚀 Event Manager (AI-Powered)
 
-A simple **Flask-based web application** to create, manage, edit, and delete events.  
-It also generates **AI-powered promotional messages** for each event automatically.  
+A **Flask-based AI-powered event management system** that helps users create, edit, delete, and view events.  
+It also generates **smart promotional messages** for each event automatically to make sharing easier.  
 
 ---
 
-## 📑 Table of Contents
-- [✨ Features](#-features)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [📂 Project Structure](#-project-structure)
-- [⚙️ Installation & Setup](#️-installation--setup)
-- [▶️ Usage](#️-usage)
-- [📸 Screenshots](#-screenshots)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
+## ❓ Problem Statement
+Managing events often becomes messy — people forget dates, details, or struggle to promote their events effectively.  
+Traditional event managers only store event information but do not help in **event promotion**.  
+
+This project addresses the problem by not only storing and managing event details but also **auto-generating promotional content** to attract participants.
 
 ---
 
-## ✨ Features
-- 📝 **Create new events** with title, type, date, location, and description.  
-- 🔍 **View detailed event pages** with all information.  
-- ✏️ **Edit and update events** seamlessly.  
-- ❌ **Delete events** when no longer needed.  
-- 🤖 **AI-generated event promotion messages**.  
-- 🎨 **Clean and modern UI** styled with CSS.  
+## ✅ Current Progress Status
+- ✔️ Event creation, editing, deletion, and viewing functionality is complete.  
+- ✔️ AI-powered promotional message generator implemented.  
+- ✔️ Clean and responsive frontend UI with CSS styling.  
+- ⏳ Database integration (currently using in-memory storage).  
+- ⏳ Deployment to cloud/production.  
+
+**Overall Progress:** ~70% complete.  
 
 ---
 
-## 🛠️ Tech Stack
-- **Backend:** Flask (Python)  
+## 💡 How the Prototype Solves the Problem
+- Provides a **simple web-based interface** for managing all events in one place.  
+- Auto-generates **AI promotional text** for each event to save time and effort.  
+- Reduces manual work by making events **easily editable and deletable**.  
+- Gives users a **modern, minimal UI** to keep things professional and clean.  
+
+---
+
+## 🛠️ Technologies & Tools Used
+- **Backend:** Python, Flask  
 - **Frontend:** HTML, CSS (Jinja2 templates)  
-- **Storage:** In-memory list (can be replaced with DB)  
+- **AI Logic:** Simple Python function generating promotional text  
+- **Storage:** In-memory (list) — can be extended with SQL/NoSQL DB  
+- **Others:** Jinja templating, Flask routing  
 
 ---
+
+## 📸 Screenshots
+
+### 🏠 Homepage – Event List
+![Homepage](screenshots/homepage.png)
+
+### ➕ Create Event Page
+![Create Event](screenshots/create_event.png)
+
+### 📄 Event Detail with AI-Promo
+![Event Detail](screenshots/event_detail.png)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/event-manager-ai.git
+cd event-manager-ai
