@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{ event.title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>{{ event.title }} <span style="font-size:16px; font-weight:400;">({{ event.type }})</span></h1>
+        <nav>
+            <a href="{{ url_for('index') }}">Back to Events</a>
+        </nav>
+    </header>
+    <div class="container">
+        <p style="color:#537ba5; font-weight:600;">Date:</p>
+        <p>{{ event.date }}</p>
+        <p style="color:#537ba5; font-weight:600;">Location:</p>
+        <p>{{ event.location }}</p>
+        <p style="color:#537ba5; font-weight:600;">Description:</p>
+        <p>{{ event.description }}</p>
+        <h3>AI-Powered Promotion</h3>
+        <div class="ai-promo">
+            {{ promo }}
+        </div>
+        <form action="{{ url_for('delete_event', event_id=event.id) }}" method="post" style="display:inline;">
+            <button type="submit" onclick="return confirm('Delete this event?')" style="background:#d9534f; color:white; border:none; padding:10px 18px; border-radius:5px; cursor:pointer;">Delete</button>
+        </form>
+        <a href="{{ url_for('edit_event', event_id=event.id) }}" style="background:#ffc107; color:#222; border:none; padding:10px 18px; border-radius:5px; text-decoration:none; margin-left:10px;">Edit</a>
+    </div>
+</body>
+</html>

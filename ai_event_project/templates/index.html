@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Event Manager AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Event Manager (AI Powered)</h1>
+        <nav>
+            <a href="{{ url_for('create_event') }}">Create Event</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Your Events</h2>
+        <ul class="event-list">
+            {% for event in events %}
+            <li>
+                <a class="event-link" href="{{ url_for('event_detail', event_id=event.id) }}">{{ event.title }}</a>
+                <span style="color:#537ba5;"> ({{ event.type }}) </span>
+                <br>
+                <small style="color: #8095b4;">{{ event.date }} &middot; {{ event.location }}</small>
+            </li>
+            {% else %}
+            <li>No events yet. <span style="color:#aaa">Create one!</span></li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

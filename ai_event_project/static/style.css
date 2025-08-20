@@ -1,0 +1,126 @@
+body {
+    background: linear-gradient(135deg, #89f7fe, #66a6ff 100%);
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica', Arial, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    padding: 30px 0 10px 0;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+    text-align: center;
+}
+
+h1 {
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #174a85;
+    margin-bottom: 5px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #3163ad;
+    text-decoration: none;
+    font-size: 1.12em;
+    padding: 8px 18px;
+    border-radius: 4px;
+    margin: 0 5px;
+    background: #e9f3fc;
+    transition: background 0.16s;
+}
+nav a:hover {
+    background: #3163ad;
+    color: #fff;
+}
+
+.container {
+    background: rgba(255,255,255,0.98);
+    margin: 35px auto 0 auto;
+    padding: 40px 28px 32px 28px;
+    border-radius: 14px;
+    box-shadow: 0 8px 40px rgba(45,105,175, .13);
+    max-width: 450px;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #255081;
+    font-size: 1em;
+}
+
+input[type=text], input[type=date], textarea {
+    width: 98%;
+    padding: 10px;
+    border: 1.2px solid #b9d6f5;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 1em;
+    background: #f6fafc;
+    font-family: inherit;
+}
+
+input[type=submit] {
+    background: #3163ad;
+    color: #fff;
+    border: none;
+    font-size: 1.07em;
+    font-weight: 700;
+    padding: 12px 25px;
+    margin-top: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.18s;
+}
+input[type=submit]:hover {
+    background: #174a85;
+}
+
+ul.event-list {
+    list-style: none;
+    padding: 0;
+}
+ul.event-list li {
+    background: #f6fafc;
+    margin: 10px 0;
+    padding: 13px 17px;
+    border-radius: 7px;
+    font-size: 1.07em;
+    box-shadow: 0 2px 8px rgba(49,99,173,0.04);
+    border-left: 4px solid #39a0ed;
+    animation: fadein 0.6s;
+}
+
+a.event-link {
+    color: #3163ad;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.13s;
+}
+a.event-link:hover {
+    color: #1b2944;
+}
+
+.ai-promo {
+    background: linear-gradient(105deg, #c1dbfa 65%, #e3edf8 100%);
+    padding: 14px;
+    border-radius: 7px;
+    margin: 18px 0 12px 0;
+    color: #144268;
+    font-style: italic;
+    font-size: 1.08em;
+    box-shadow: 0 2px 12px rgba(49,99,173,0.09);
+}
+@keyframes fadein {
+    from { opacity: 0; transform: translateY(18px);}
+    to { opacity: 1; transform: translateY(0);}
+}
