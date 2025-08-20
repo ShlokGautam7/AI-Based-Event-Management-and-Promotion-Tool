@@ -53,6 +53,6 @@ This project addresses the problem by not only storing and managing event detail
 ![Event Detail](screenshots/event_created.png)
 
 ### ✏️ Updation & Deletion
-![Update Delete]([screenshots/update_delete.png](https://github.com/user-attachments/assets/1623fd2f-1824-43f2-9e84-302441cb51c5))
+![Update Delete](screenshots/update_or_delete.png)
 
 ---
