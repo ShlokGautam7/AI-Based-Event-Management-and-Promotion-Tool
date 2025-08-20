@@ -47,7 +47,7 @@ This project addresses the problem by not only storing and managing event detail
 ![Homepage](screenshots/homepage.png)
 
 ### ➕ Creating an Event
-![Create Event]((https://github.com/user-attachments/assets/36a65212-0755-41de-8491-3c6495ce72eb))
+![Create Event](screenshots/creating event.png)
 
 ### 📄 Event Created
 ![Event Detail]((https://github.com/user-attachments/assets/eb3d3be3-7209-423d-8be8-ee373a8361a3))
