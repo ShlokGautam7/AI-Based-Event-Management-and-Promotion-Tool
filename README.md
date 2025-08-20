@@ -50,7 +50,7 @@ This project addresses the problem by not only storing and managing event detail
 ![Create Event](screenshots/creating_event.png)
 
 ### 📄 Event Created
-![Event Detail]((https://github.com/user-attachments/assets/eb3d3be3-7209-423d-8be8-ee373a8361a3))
+![Event Detail](screenshots/event_created.png)
 
 ### ✏️ Updation & Deletion
 ![Update Delete]([screenshots/update_delete.png](https://github.com/user-attachments/assets/1623fd2f-1824-43f2-9e84-302441cb51c5))
