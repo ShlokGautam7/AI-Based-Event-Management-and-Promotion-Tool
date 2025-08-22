@@ -22,5 +22,3 @@ it auto-generates engaging **AI-based promotional text** for your events! 🚀
 - **AI Logic**: Rule-based text generation (extendable to ML/NLP later)  
 
 ---
-
-## 🚀 Getting Started
